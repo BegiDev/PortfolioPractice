@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Schoolbell&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Schoolbell&display=swap');
 
 * {
 	margin: 0;
@@ -13,9 +13,23 @@
 .bg-img {
 	background-image: url('/public/bg-img.png');
 	background-color: #265a6a;
-	height: 100vh;
+	height: 660px;
 }
 
 .statistica {
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.embla {
+	overflow: hidden;
+	width: 100%;
+}
+.embla__container {
+	display: flex;
+}
+.embla__slide {
+	flex: 0 0 auto;
+	width: 33%;
+	padding: 0 10px;
+	box-sizing: border-box;
 }

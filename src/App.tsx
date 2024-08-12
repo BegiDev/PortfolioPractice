@@ -1,3 +1,6 @@
+import Blog from './components/blog'
+import Feedback from './components/feedback'
+import Footer from './components/footer'
 import Hero from './components/hero'
 import Navbar from './components/navbar'
 import Services from './components/services'
@@ -15,6 +18,9 @@ function App() {
 				<Statistica />
 			</div>
 			<Services />
+			<Feedback />
+			<Blog />
+			<Footer />
 		</div>
 	)
 }

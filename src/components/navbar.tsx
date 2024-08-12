@@ -12,7 +12,7 @@ function Navbar() {
 						key={item.id}
 						className='hover:text-white transition duration-300 ease-in-out cursor-pointer'
 					>
-						{item.name}
+						<a href={item.href}>{item.name}</a>
 					</li>
 				))}
 			</ul>
