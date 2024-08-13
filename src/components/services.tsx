@@ -4,7 +4,7 @@ import { services, portfolio } from '../constant'
 function Services() {
 	return (
 		<>
-			<div className='container w-full max-w-[1150px] m-auto my-32'>
+			<div className='container w-full max-w-[1150px] m-auto my-32 px-5'>
 				<div className='flex items-center justify-center max-w-96 mx-auto text-center'>
 					<div>
 						<h2 className='font-schoolbell text-2xl'>Services</h2>
@@ -46,7 +46,7 @@ function Services() {
 				</div>
 			</div>
 
-			<div className='w-[1000px] m-auto'>
+			<div className='w-[1000px] m-auto px-5'>
 				<div className='flex justify-between gap-5'>
 					<div className='m'>
 						<div className='max-w-xl'>

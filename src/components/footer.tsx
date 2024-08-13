@@ -3,7 +3,7 @@ import { footerContact, footerPages, footerServices } from '../constant'
 
 function Footer() {
 	return (
-		<div className='border-t mt-12'>
+		<div className='border-t mt-12 px-5'>
 			<div className='flex justify-between w-full max-w-[1150px] m-auto py-8'>
 				<div className='w-[25%]'>
 					<a href='/' className='text-[#08546C] font-bold text-3xl'>

@@ -14,7 +14,7 @@ function App() {
 				<Hero />
 			</div>
 
-			<div className='absolute top-[570px] bottom-1 left-0 right-0 z-50'>
+			<div className='md:absolute top-[570px] bottom-1 left-0 right-0 z-50'>
 				<Statistica />
 			</div>
 			<Services />

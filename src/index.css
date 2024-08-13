@@ -10,10 +10,14 @@
 	padding: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .bg-img {
 	background-image: url('/public/bg-img.png');
 	background-color: #265a6a;
-	height: 660px;
+	height: 100vh;
 }
 
 .statistica {

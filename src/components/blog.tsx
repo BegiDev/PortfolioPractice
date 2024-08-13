@@ -4,7 +4,7 @@ import { blogSite } from '../constant'
 
 function Blog() {
 	return (
-		<div className='flex w-full max-w-[1050px] m-auto mt-20' id='blog'>
+		<div className='flex w-full max-w-[1050px] m-auto mt-20 px-5' id='blog'>
 			<div className='w-[430px]'>
 				<img src={blogImg} alt='Blog img' className='w-[430px] h-[400px]' />
 				<h2 className='text-[#08546C] font-semibold text-3xl mt-7'>

@@ -14,7 +14,7 @@ function Feedback() {
 
 	return (
 		<div
-			className='feedback w-full max-w-[1050px] m-auto flex mt-24 gap-6 justify-center embla'
+			className='feedback w-full max-w-[1050px] m-auto flex mt-24 gap-6 justify-center embla px-5'
 			ref={emblaRef}
 		>
 			<div className='embla__container'>
